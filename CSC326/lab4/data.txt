@@ -1,0 +1,15 @@
+banana
+apple
+elephant
+zebra
+giraffe
+25
+99
+27
+105
+32
+b
+e
+c
+d
+a
