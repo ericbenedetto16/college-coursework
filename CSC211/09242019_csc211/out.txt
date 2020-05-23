@@ -1,0 +1,80 @@
+Player ID: 10229401
+Player: Absolute_Beast
+Team: New York Mets
+Homeruns: 50
+Batting Average: 0.264000
+RBI (Runs Batted In): 115
+
+
+Player ID: 19301281
+Player: DJ LeMahieu
+Team: New York Yankees
+Homeruns: 26
+Batting Average: 0.329000
+RBI (Runs Batted In): 99
+
+
+Player ID: 49205829
+Player: Christian Yelich
+Team: Milwaukee Brewers
+Homeruns: 44
+Batting Average: 0.329000
+RBI (Runs Batted In): 97
+
+
+Player ID: 45820192
+Player: Ketel Marte
+Team: Arizona Diamondbacks
+Homeruns: 32
+Batting Average: 0.329000
+RBI (Runs Batted In): 92
+
+
+Player ID: 58305820
+Player: Bryan Reynolds
+Team: Pittsburgh Pirates
+Homeruns: 16
+Batting Average: 0.318000
+RBI (Runs Batted In): 67
+
+
+Player ID: 45920459
+Player: Charlie Blackmon
+Team: Colorado Rockies
+Homeruns: 30
+Batting Average: 0.317000
+RBI (Runs Batted In): 82
+
+
+Player ID: 19013849
+Player: Jeff McNeil
+Team: New York Mets
+Homeruns: 23
+Batting Average: 0.316000
+RBI (Runs Batted In): 73
+
+
+Player ID: 45910458
+Player: Nolan Arenado
+Team: Colorado Rockies
+Homeruns: 41
+Batting Average: 0.315000
+RBI (Runs Batted In): 118
+
+
+Player ID: 69205972
+Player: Michael Brantley
+Team: Houstan Astros
+Homeruns: 21
+Batting Average: 0.315000
+RBI (Runs Batted In): 86
+
+
+Player ID: 49204982
+Player: Kevin Newman
+Team: Pittsburgh Pirates
+Homeruns: 10
+Batting Average: 0.310000
+RBI (Runs Batted In): 59
+
+

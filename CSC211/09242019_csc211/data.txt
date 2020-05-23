@@ -1,0 +1,60 @@
+10229401
+Pete Alonso
+New York Mets
+.264
+50
+115
+19301281
+DJ LeMahieu
+New York Yankees
+.329
+26
+99
+49205829
+Christian Yelich
+Milwaukee Brewers
+.329
+44
+97
+45820192
+Ketel Marte
+Arizona Diamondbacks
+.329
+32
+92
+58305820
+Bryan Reynolds
+Pittsburgh Pirates
+.318
+16
+67
+45920459
+Charlie Blackmon
+Colorado Rockies
+.317
+30
+82
+19013849
+Jeff McNeil
+New York Mets
+.316
+23
+73
+45910458
+Nolan Arenado
+Colorado Rockies
+.315
+41
+118
+69205972
+Michael Brantley
+Houstan Astros
+.315
+21
+86
+49204982
+Kevin Newman
+Pittsburgh Pirates
+.310
+10
+59
