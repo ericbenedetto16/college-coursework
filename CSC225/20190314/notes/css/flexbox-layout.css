@@ -1,0 +1,38 @@
+body {
+    background: #eeeeee;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    background: #ffffff;
+    margin: auto;
+}
+
+article .column {
+    padding: 25px;
+}
+
+.column.column-sidebar-main {
+    flex-basis: 25%;
+    order: 1;
+}
+
+.column.column-main {
+    flex-basis: 50%;
+    order: 2;
+}
+
+.column.column-sidebar-auxiliary {
+    flex-basis: 25%;
+    order: 3;
+}
+
+@media all and (max-width:768px) {
+    article {
+        flex-flow: column;
+    }
+}

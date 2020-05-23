@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.movie.nemesis {
+    order: 10;
+}
+
+.movie.insurrection {
+    order: 9;
+}
+
+.movie.first-contact {
+    order: 8;
+}
+
+.movie.generations {
+    order: 7;
+}
+
+.movie.undiscovered-country {
+    order: 6;
+}
+
+.movie.the-final-frontier {
+    order: 5;
+}
+
+.movie.the-voyage-home {
+    order: 4;
+}
+
+.movie.the-search-for-spock {
+    order: 3;
+}
+
+.the-wrath-of-khan {
+    order: 2;
+}
+
+.the-motion-picture {
+    order: 1;
+}
+
+.movie {
+    padding:25px;
+    background:#3c342b;
+    color:goldenrod;
+    margin-bottom:25px;
+}
+
+.movie:nth-of-type(odd){
+    background:goldenrod;
+    color:#3c342b;
+}
+
+@media only screen and (max-width:768px) {    
+    .movie:nth-of-type(odd) {
+        background: #3c342b;
+        color: goldenrod;
+    }
+
+    .movie:nth-of-type(even) {
+        background: goldenrod;
+        color: #3c342b;
+    }
+
+    .movie.nemesis {
+        order: 1;
+    }
+    
+    .movie.insurrection {
+        order: 2;
+    }
+    
+    .movie.first-contact {
+        order: 3;
+    }
+    
+    .movie.generations {
+        order: 4;
+    }
+
+    .movie.undiscovered-country {
+        order: 5;
+    }
+
+    .movie.the-final-frontier {
+        order: 6;
+    }
+
+    .movie.the-voyage-home {
+        order: 7;
+    }
+
+    .movie.the-search-for-spock {
+        order: 8;
+    }
+
+    .movie.the-wrath-of-khan {
+        order: 9;
+    }
+
+    .movie.the-motion-picture {
+        order: 10;
+    }
+}

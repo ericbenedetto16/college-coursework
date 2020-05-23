@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+      <title> FORM! </title>
+   </head>
+   <body>
+      <h1>Sign Up!</h1>
+      <form>
+         <h2>Personal Information</h2>
+         <p>
+            <label for="salutation">Salutation</label>
+            <select name="salutation" id="salutation">
+               <option value="mr">Mr.</option>
+               <option value="ms">Ms.</option>
+            </select>
+         </p>
+         <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+         </p>
+         <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+         </p>
+         <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+         </p>
+         <h2>Misc. Information</h2>
+         <div class="bottom-half-wrap">
+            <p><label for="biography">Biography</label></p>
+            <p><textarea id="biography" name="biography"></textarea></p>
+            <input type="submit" value="Submit">
+         </div>
+      </form>
+   </body>
+</html>

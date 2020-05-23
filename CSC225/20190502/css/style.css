@@ -1,0 +1,10 @@
+.book {
+    text-decoration: underline;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.book:hover {
+    text-decoration: none;
+    color: tomato;
+}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+	<title>Buddha's Charms</title>
+  </head>
+  <body>
+
+  <!-- Header w/ Nav -->
+  	<header>
+  		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+  			</button>
+  			<a class="order-2" href="cart.html"><div class="btn btn-md btn-outline-secondary"><i class="fa fa-shopping-cart"></i></div></a>
+  			<div class="collapse navbar-collapse" id="navbarNav">
+  				<ul class="navbar-nav">
+  					<li class="nav-item">
+  						<a class="nav-link" href="#">Home</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" href="products/">Products</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" href="contact.html">Contact Us</a>
+  					</li>
+  				</ul>
+  			</div>
+  		</nav>
+  	</header>
+
+    <div class="container pt-3">
+      <h2 class="display-4">Checkout (Total: $17.97)</h2>
+
+      <form>
+        <div class="row py-2">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col">
+            <input type="email" class="form-control" placeholder="E-Mail" required>
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Street Address" required>
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="City" required>
+          </div>
+          <div class="col-2">
+            <input type="text" class="form-control" placeholder="State" maxlength="2" required>
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="shippingMethod" id="standardShipping" value="standard" checked>
+              <label class="form-check-label" for="standardShipping">
+                Standard Shipping (5-8 Business Days) - Free
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="shippingMethod" id="expressShipping" value="express" disabled>
+              <label class="form-check-label" for="expressShipping">
+                Express Shipping (2-3 Business Day)- $14.99
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="shippingMethod" id="nextDayShipping" value="nextday" disabled>
+              <label class="form-check-label" for="nextDayShipping">
+                Next-Day Shipping (1 Business Day) - $35.99
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-4">
+            <input type="number" class="form-control" placeholder="Credit Card Number" required>
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="Name on Card" required>
+          </div>
+          <div class="col-3">
+            <input type="text" class="form-control" placeholder="Exp. mm/yy" maxlength="5" required>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-12 btn btn-lg btn-primary">
+            Submit Order
+          </div>
+        </div>
+      </form>
+    </div>
+
+	<!-- Footer w/ Copyright & Social Badges-->
+  <footer class="sticky-bottom py-4 bg-dark text-center text-light">
+    <!-- Copyright -->
+    <div>© 2019 Copyright: <a class="text-muted" href="https://github.com/ericbenedetto16/" target=_blank>Eric Benedetto</a></div>
+    <div>
+      <a href="policies/service.html">Terms of Service</a> | <a href="policies/privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>

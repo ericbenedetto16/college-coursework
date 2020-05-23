@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 4</title>
+</head>
+<body>
+    <form>
+        <div>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div>
+                    <label for="firstname">First Name*: </label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Your first name" required>
+                </div>
+                
+                <div>
+                    <label for="lastname">Last Name*: </label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Your last name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address*: </label>
+                    <input type="email" name="email" id="email" placeholder="Your email address" required>
+                </div>
+
+                <div>
+                    <label for="pwd">Password Input*: </label>
+                    <input type="password" name="pwd" id="pwd" required>
+                </div>
+
+                <div>
+                    <label for="pwd-rpt">Password Repeat*: </label>
+                    <input type="password" name="pwd-repeat" id="pwd-rpt" required>
+                </div>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Profile Information</legend>
+
+                <div>
+                    <label>Grade Level</label>
+
+                    <input type="radio" name="grade" id="freshman" value="Freshman">
+                    <label for="freshman">Freshman</label>
+
+                    <input type="radio" name="grade" id="sophomore" value="Sophomore">
+                    <label for="sophomore">Sophomore</label>       
+
+                    <input type="radio" name="grade" id="junior" value="Junior"> 
+                    <label for="junior">Junior</label>
+
+                    <input type="radio" name="grade" id="senior" value="Senior">
+                    <label for="senior">Senior</label>
+
+                    <input type="radio" name="grade" id="graduate" value="Graduate">
+                    <label for="graduate">Graduate</label>
+                </div>
+
+                <div>
+                    <label for="genre">Favorite Genre of Music*: </label>
+                    <select name="genre" id="genre" multiple required>
+                        <option value="rock">rock</option>
+                        <option value="hip-hop">hip hop</option>
+                        <option value="edm">EDM</option>
+                        <option value="classical">classical</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="wutang">Favorite Member of Wu Tang Clan*: </label>
+                    <select name="wutang" id="wutang" required>
+                        <option value="" selected disabled>-- Select --</option>
+                        <option value="rza">RzA</option>
+                        <option value="gza">GzA</option>
+                        <option value="oldirty">Ol' Dirty</option>
+                        <option value="inspectah">Inspectah Deck</option>
+                        <option value="raekwon">Raekwon</option>
+                        <option value="ugod">U-God</option>
+                        <option value="ghostface">Ghostface Killah</option>
+                        <option value="methodman">Method Man</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="agree" id="agree" value="agreed">
+                    <label for="agree">Sign me up for spam emails, because I don't get enough junk email!</label>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <label>* Required</label>
+            <button type="submit">Submit this form!</button>
+        </div>
+    </form>
+</body>
+</html>

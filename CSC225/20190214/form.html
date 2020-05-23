@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <a href="index.html">Go Back</a>
+    <form action="" method="GET">
+            <div>
+                <label for="username"></label>
+                <input type="text" id="username" name="firstname" aria-label="Enter First Name" placeholder="First Name" required>
+            </div>
+
+            <div>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" aria-label="Password" placeholder="Password" pattern="" required>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="agree" id="agree" value="agreed" required>
+                <label for="agree">Agree To Terms and Conditions</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="agree" id="secagreed" value="agreed" required>
+                <label for="secagreed">Agree To Terms and Conditions</label>
+            </div>
+
+            <div>
+                <label for="URL"></label>
+                <input type="url" name="url" id="url" placeholder="Enter a URL">
+            </div>
+
+            <div>
+                <label for="color"></label>
+                <input type="color" name="color" id="color">
+            </div>
+
+            <div>
+                <label for="date"></label>
+                <input type="date" name="date" id="date">
+            </div>
+    
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male">
+    
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+    
+            <div>
+                <textarea name="biography" id="bio" style="resize: none;"></textarea>
+            </div>
+    
+            <div>
+                <select name="car" id="car" multiple>
+                    <option value="fusion">Ford Fusion</option>
+                    <option value="mazda">Mazda MPV</option>
+                    <option value="honda">Honda Accord</option>
+                </select>
+            </div>
+    
+            <div>
+                <select name="car" id="car">
+                    <option value="car">Car</option>
+                    <option value="fusion">Ford Fusion</option>
+                    <option value="mazda">Mazda MPV</option>
+                    <option value="honda">Honda Accord</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="submit"></label>  
+                <input type="submit"></input><input type="reset" value="Clear"></input>
+            </div>
+        </form>
+</body>
+</html>
