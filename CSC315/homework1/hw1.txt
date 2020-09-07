@@ -1,0 +1,15 @@
+Eric Benedetto			CSC 315 - HW 1
+
+Explain the difference between logical and physical data independence.
+
+Physical Data Independence
+--------------------------
+Physical data independence relies heavily on the more robust parts of a database, such as the storage devices, data structures, indexes, etc. Physical data independence functions on the ability to be able to change any of the previously mentioned things without impacting the data being stored.
+
+Logical Data Independence
+-------------------------
+Logical data independence is the ability to modify how the data in a database is stored and not impact the client (i.e. Dropping, renaming, or adding a column should not break an existing external API).
+
+Physical vs. Logical Data Independence
+--------------------------------------
+Overall, physical data independence deals with preserving the integrity and general stability of the DBMS despite changes to hardware and some other factors, and logical data independence is more geared toward the stability of client-facing access to the data despite changes in schemas.
